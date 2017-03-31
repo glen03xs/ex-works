@@ -3,24 +3,28 @@
 * --------------------------------------------------------------------------------------*/
 
  /*-------------- Typography --------------*/
-$base-font-size: 16px;
-$font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-2: "Georgia", Helvetica, serif;
+$base-font-size: 14px;
+$font-1: "Open Sans", Helvetica, Arial, sans-serif;
+$font-2: "Catamaran", Helvetica, serif;
 
 $baseline: $base-font-size * 1.5;
 
 
 /*-------------- Colors --------------*/
-$color-link: #4183c4;
-$color-link-hover: #333;
+$color-link: #183650;
+$color-link-hover: #2672b4;
 
-$color-text: #333;
-$color-light-text: #777;
+$color-text: #2b2b2b;
+$color-text-2: #001b22;
+$color-light-text: #f7f4f3;
 
-$color-hr: #eee;
+$color-hr: #c10f03;
 
-$color-1:#4183c4;
-$color-2:#Efefef;
+$color-1:#aaaaaa;
+$color-2:#e1e1e1;
+
+$color-banner: #c10f03;
+$color-callout: #2D3439;
 
 $color-validation-error: red;
 $color-validation-sucsess: green;

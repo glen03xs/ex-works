@@ -15,14 +15,18 @@
 
         <!--Stylesheets-->
         <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/styles.css">
 
 
     </head>
     <body>
         <!--HEADER-->
         <header>
-            <div class="header-top">
+            <div class="main-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
@@ -33,27 +37,30 @@
                         </div> <!--end col-lg-4-->
                         <div class="col-md-8">
                             <div class="top-bar">
-                                <ul>
-                                    <li><i class="fa fa-phone"></i><p>(632) 310 70 99</p></li>
-                                    <li><i class="fa fa-envelop"></i><p>info@ex-worksph.com</p></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i><p>Chat with Us</p></a></li>
-                                    <li><button type="">Get your qoute</button></li>
+                                <ul class="inline">
+                                    <li><i class="fa fa-phone"></i> (632) 310 70 99></li>
+                                    <li><i class="fa fa-envelope"></i> info@ex-worksph.com</li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> Chat with Us</a></li>
+                                    <li><a href="#" class="btn-top-quote">Get your quote</a></li>
                                 </ul>
                             </div> <!--end top-bar-->
                         </div> <!--end col-md-8-->
                         <div class="col-md-8">
+                            <div class="search">
+                                <span><a href="#"><i class="fa fa-search"></i></a></span>
+                            </div><!--end search-->
                             <nav>
-                                <ul class="main-nav">
+                                <ul class="main-nav inline">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="#">Services</a>
-                                        <ul>
+                                        <!--<ul>
                                             <li><a href="#">Air Freight</a></li>
                                             <li><a href="#">Sea Freight</a></li>
                                             <li><a href="#">Door Delivery</a></li>
                                             <li><a href="#">Foreign Trade Agency</a></li>
                                             <li><a href="#">Customs Clearance</a></li>
                                             <li><a href="#">Domestic Freight</a></li>
-                                        </ul>
+                                        </ul>-->
                                     </li>
                                     <li><a href="#">Resources</a></li>
                                     <li><a href="#">News / Articles</a></li>
@@ -64,17 +71,19 @@
                         </div> <!--end col-md-8-->
                     </div> <!--end row-->
                 </div> <!--end container-->
-            </div>  <!--end header-container-->
+            </div>  <!--end main-header-->
         </header>
 
         <!--SLIDER-->
         <section>
-            <div class="main-slider">
-                <ul class="hero-slides">
+            <div class="main-slider s-adjust">
+                <ul class="hero-slides" id="main-slides">
                     <li class="slide selected-slide">
                         <div class="slide-content">
                             <div class="slide-text">
-                                <h2><span>Welcome to</span>Ex-works Cargo Services</h2>
+                                <h2>Welcome to Ex-works Cargo Services</h2>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+                                <a href="#" class="btn-slider">LEARN MORE <i class="fa fa-chevron-circle-right"></i></a>
                             </div> <!-- slide text-->
                         </div> <!-- slide-content-->
                         <div class="slide-img"><img src="img/slider/slide-01.jpg" alt=""></div> <!--end slide-img-->
@@ -82,7 +91,8 @@
                     <li class="slide">
                         <div class="slide-content">
                             <div class="slide-text">
-                                <h2><span>We Make it Happen</span>We Make it Work</h2>
+                                <h2>We Make it happen, We Make it work</h2>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
                                 <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
                             </div> <!-- slide text-->
                         </div> <!-- slide-content-->
@@ -91,7 +101,8 @@
                     <li class="slide">
                         <div class="slide-content">
                             <div class="slide-text">
-                                <h2><span>Unload your tension</span>we will carry</h2>
+                                <h2>Unload your tension we will carry</h2>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
                                 <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
                             </div> <!-- slide text-->
                         </div> <!-- slide-content-->
@@ -100,19 +111,21 @@
                     <li class="slide">
                         <div class="slide-content">
                             <div class="slide-text">
-                                <h2><span>Transporting your good</span>retaining your trust</h2>
+                                <h2>Transporting your goods Retaining your Trust</h2>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
                                 <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
                             </div> <!-- slide text-->
                         </div> <!-- slide-content-->
                         <div class="slide-img"><img src="img/slider/slide-04.jpg" alt=""></div> <!--end slide-img-->
                     </li> <!-- slide -->
                     <li class="slide">
-                        <div class="slide-content">
-                            <div class="slide-text">
-                                <h2><span>Global Solutions</span>For Global Traders</h2>
-                                <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
-                            </div> <!-- slide text-->
-                        </div> <!-- slide-content-->
+                            <div class="slide-content">
+                                <div class="slide-text">
+                                    <h2>Your deadline is OUR Focus</h2>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+                                    <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
+                                </div> <!-- slide text-->
+                            </div> <!-- slide-content-->
                         <div class="slide-img"><img src="img/slider/slide-05.jpg" alt=""></div> <!--end slide-img-->
                     </li> <!-- slide -->
                 </ul>
@@ -124,55 +137,52 @@
 
         <!--SERVICES-->
         <section>
-            <div class="content-services">
+            <div class="content-services s-adjust">
                 <div class="container">
                     <div class="row">
                         <div class="content-title">
                             <h2>Services</h2>
-                            <img src="img/red-hr.png" alt="">
-                            <a href="#" class="btn btn-primary">View All</a>
+                            <hr class="red-line">
+                            <a href="#" class="btn-primary">View All</a>
                         </div> <!--end content-title-->
                         <div class="list-services">
-                            <div class="col-md-3">
-                                <div class="srvc-box">
-                                    <i class="fa fa-plane"></i>
-                                    <div class="srvc-info">
+                            <div class="col-md-4">
+                                <div class="service-box">
+                                    <div class="icon-holder">
+                                        <i class="fa fa-plane"></i>
+                                    </div> <!--end icon-holder-->
+                                    <div class="service-info">
                                         <h3>Air Freight</h3>
                                         <p>Our experienced and knowledgeable staff ensures a timely,well organized, cost effective deliveries for whatever air shipment you need to transport. It’s a fast, efficient air freight service you can truly rely on.</p>
                                         <a href="#">View Details</a>
-                                    </div> <!--end srvc-info-->
-                                </div> <!--end srvc-box-->
+                                    </div> <!--end service-info-->
+                                </div> <!--end service-box-->
                             </div> <!--end col-md-3-->
-                            <div class="col-md-3">
-                                <div class="srvc-box">
-                                    <i class="fa fa-ship"></i>
-                                    <div class="srvc-info">
+                            <div class="col-md-4">
+                                <div class="service-box">
+                                    <div class="icon-holder">
+                                        <i class="fa fa-ship"></i>
+                                    </div> <!--end icon-holder-->
+                                    <div class="service-info">
                                         <h3>Sea Freight</h3>
                                         <p>We have an extensive top network of overseas partners including all major international sea carriers. Our strong global freight connections give us flexibility to meet client time-frame and budget.</p>
                                         <a href="#">View Details</a>
-                                    </div> <!--end srvc-info-->
-                                </div> <!--end srvc-box-->
+                                    </div> <!--end service-info-->
+                                </div> <!--end service-box-->
                             </div> <!--end col-md-3-->
-                            <div class="col-md-3">
-                                <div class="srvc-box">
-                                    <i class="fa fa-plane"></i>
-                                    <div class="srvc-info">
+                            <div class="col-md-4">
+                                <div class="service-box">
+                                    <div class="icon-holder">
+                                        <i class="fa fa-truck"></i>
+                                    </div> <!--end icon-holder-->
+                                    <div class="service-info">
                                         <h3>Door Delivery</h3>
                                         <p>Our experienced and knowledgeable staff ensures a timely,well organized, cost effective deliveries for whatever air shipment you need to transport. It’s a fast, efficient air freight service you can truly rely on.</p>
                                         <a href="#">View Details</a>
-                                    </div> <!--end srvc-info-->
-                                </div> <!--end srvc-box-->
+                                    </div> <!--end service-info-->
+                                </div> <!--end service-box-->
                             </div> <!--end col-md-3-->
-                            <div class="col-md-3">
-                                <div class="srvc-box">
-                                    <i class="fa fa-plane"></i>
-                                    <div class="srvc-info">
-                                        <h3>Foreign Trade Agency</h3>
-                                        <p>We do our best to help our customers searching their interested products, and negotiation price with the factories to match the requirements.</p>
-                                        <a href="#">View Details</a>
-                                    </div> <!--end srvc-info-->
-                                </div> <!--end srvc-box-->
-                            </div> <!--end col-md-3-->
+                            
                         </div> <!--end list-services-->
                     </div> <!--end row-->
                 </div> <!--end container-->
@@ -187,25 +197,16 @@
                         <div class="col-md-7">
                             <div class="about">
                                 <h2>About Ex-works</h2>
-                                <img src="img/red-hr.png" alt="">
-                                
+                                <hr class="red-line">
                                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
                                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
                                 <h5>Rodrigo Villanueva Jr.</h5>
-                                <p>Chief Executive Officer</p>
+                                <span><p>Chief Executive Officer</p></span>
                             </div> <!--end about-->
                         </div> <!--end col-md-7-->
                         <div class="col-md-5">
-                            <div class="video-about">
-                                <article class="video-item">
-                                    <div class="video-thumb">
-                                        <a href="#">
-                                            <span class="iconPlay style--01"></span>
-                                            <img src="img/placeholder/about/01.jpg" alt="">
-                                        </a>
-                                    </div><!-- video-thumb-->
-                                </article> <!-- video-item-->
-                            </div> <!--end video-about-->
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/OGgWneUreb0?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen>
+                            </iframe>
                         </div> <!--end col-md-5-->
                     </div> <!--end row-->
                 </div> <!--end container -->
@@ -214,64 +215,75 @@
 
         <!--WHY CHOOSE US-->
         <section>
-            <div class="features-cta">
+            <div class="features-cta side-bg">
+                <div class="col-md-5 col-md-offset-6 pull-right bg-container">
+                    <div class="quote-bg"></div> <!--end quote-bg-->
+                </div> <!--end -->
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="features">
                                 <h2>Why Choose Us</h2>
-                                <img src="img/red-hr.png" alt="">
+                                <hr class="red-line">
                                 <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a.</p>
                                 <ul>
                                     <li>
-                                        <i class="fa fa-ship"></i>
-                                        <h4>Customer Satisfaction</h4>
-                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</p>
+                                        <i class="fa fa-user"></i>
+                                        <div class="feature-text">
+                                            <h5>Customer Satisfaction</h5>
+                                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</p>
+                                        </div> <!--end feature-text-->
                                     </li>
                                     <li>
-                                        <i class="fa fa-ship"></i>
-                                        <h4>Effcient Minded</h4>
-                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</p>
+                                        <i class="fa fa-line-chart"></i>
+                                        <div class="feature-text">
+                                            <h5>Effcient Minded</h5>
+                                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</p>
+                                        </div> <!--end feature-text-->
                                     </li>
                                     <li>
-                                        <i class="fa fa-ship"></i>
-                                        <h4>Solution Oriented</h4>
-                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</p>
+                                        <i class="fa fa-lightbulb-o"></i>
+                                        <div class="feature-text">
+                                            <h5>Solution Oriented</h5>
+                                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</p>
+                                        </div> <!--end feature-text-->
                                     </li>
                                 </ul>
                             </div> <!--end feature-->
                         </div> <!--end col-md-6-->
                         <div class="col-md-6">
-                            <h2>Free Quote</h2>
-                            <form>
-                                <div class="col-md-12">
-                                    <input type="text" id="quote-name" name="quote-name" placeholder="Full Name">
-                                </div> <!--end col-md-12-->
-                                <div class="col-md-12">
-                                    <input type="email" id="quote-email" name="quote-email" placeholder="Email Address">
-                                </div> <!--end col-md-12-->
-                                <div class="col-md-12">
-                                    <select name="quote-project-type" id="quote-project-type">
-                                        <option value="0">- Solution Required -</option>
-                                        <option value="1">Air Freight</option>
-                                        <option value="2">Sea Freight</option>
-                                        <option value="3">Door Delivery</option>
-                                        <option value="4">Others</option>
-						            </select> <!--end col-md-12-->
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="number" id="quote-weight" name="quote-weight" placeholder="Weight">
-                                </div> <!--end col-md-6-->
-                                <div class="col-md-6">
-                                    <input type="text" id="quote-dimension" name="quote-dimension" placeholder="Dimension">
-                                </div> <!--end col-md-6-->
-                                <div class="col-md-12">
-                                    <textarea name="quote-shipment-details" id="quote-shipment-details" placeholder="Shipment Details"></textarea>
-                                </div><!--end col-md-12 --> 
-                                <div class="cta">
-						            <input type="submit" class="btn btn-primary" value="Give me a quote" />
-				                </div> <!-- end cta -->
-                            </form>
+                            <div class="quote-area">
+                                <h3>Free Quote</h3>
+                                <form>
+                                    <div class="col-md-12">
+                                        <input type="text" id="quote-name" name="quote-name" placeholder="Full Name">
+                                    </div> <!--end col-md-12-->
+                                    <div class="col-md-12">
+                                        <input type="email" id="quote-email" name="quote-email" placeholder="Email Address">
+                                    </div> <!--end col-md-12-->
+                                    <div class="col-md-12">
+                                        <select name="quote-project-type" id="quote-project-type">
+                                            <option value="0">- Solution Required -</option>
+                                            <option value="1">Air Freight</option>
+                                            <option value="2">Sea Freight</option>
+                                            <option value="3">Door Delivery</option>
+                                            <option value="4">Others</option>
+                                        </select> <!--end col-md-12-->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" id="quote-weight" name="quote-weight" placeholder="Weight">
+                                    </div> <!--end col-md-6-->
+                                    <div class="col-md-6">
+                                        <input type="text" id="quote-dimension" name="quote-dimension" placeholder="Dimension">
+                                    </div> <!--end col-md-6-->
+                                    <div class="col-md-12">
+                                        <textarea name="quote-shipment-details" id="quote-shipment-details" placeholder="Shipment Details"></textarea>
+                                    </div><!--end col-md-12 --> 
+                                    <div class="cta">
+                                        <input type="submit" class="btn btn-primary" value="Give me a quote" />
+                                    </div> <!-- end cta -->
+                                </form>
+                            </div> <!--end quote-area-->
                         </div> <!--end col-md-6-->
                     </div> <!--end row-->
                 </div> <!--end container-->
@@ -315,7 +327,7 @@
                     <div class="row">
                         <div class="content-title">
                             <h2>News / Articles</h2>
-                            <img src="img/red-hr.png" alt="">
+                            <hr class="red-line">
                             <a href="#" class="btn btn-primary">View All</a>
                         </div> <!--end content-title-->
                         <div class="col-md-4">
@@ -378,7 +390,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <h5>Navigation</h5>
+                            <h4>Navigation</h4>
                             <ul>
                                 <li>Articles</li>
                                 <li>News</li>
@@ -390,7 +402,7 @@
                             </ul>
                         </div> <!--end col-md-3-->
                         <div class="col-md-3">
-                            <h5>Resources</h5>
+                            <h4>Resources</h4>
                             <ul>
                                 <li>Air Container</li>
                                 <li>Sea Container</li>
@@ -406,13 +418,13 @@
                             <p>As a customer you have daily challenges. It’s a very competitive business world requiring good decision to match complex problems. Our Stakeholders opinions are very important to us.</p>
                         </div> <!--end col-md-3-->
                         <div class="col-md-3">
-                            <h3>Contact</h3>
+                            <h4>Contact</h4>
                             <ul>
                                 <li><i class="fa fa-map-marker"></i> R 319 First United Building, Escolta St, Binondo Manila, 1006 PH</li>
                                 <li><i class="fa fa-phone"></i> (632) 310 70 99 | (632) 514 54 64</li>
                                 <li><i class="fa fa-envelop"></i> info@ex-worksph.com</li>
                             </ul>
-                            <ul class="footer-social">
+                            <ul class="footer-social inline">
                                 <li><i class="fa fa-facebook"></i></li>
                                 <li><i class="fa fa-twitter"></i></li>
                                 <li><i class="fa fa-linkedin"></i></li>
@@ -430,7 +442,9 @@
         </footer>
 
 <!--Scripts-->
-        <script></script>
+        <script src="js/jquery-3.2.0.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
 
