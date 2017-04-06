@@ -3,15 +3,25 @@
 * --------------------------------------------------------------------------------------*/
  
  .btn {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: $color-banner;
+    padding: 8px 16px;
     
+    &:hover {
+        background-color: darken($color-banner, 5%);
+        color: #fff;
+    }
  }
 
  .btn-primary {
+    background-color: $color-link;
+    color: #fff;
     text-transform: uppercase;
-    padding: 16px 22px;
+    padding: 12px 22px;
 
      &:hover {
-         background-color: $color-link-hover;
+         background-color: lighten($color-link, 20%);
          color: $color-light-text;
      }
 }
@@ -27,7 +37,22 @@
      padding: 0 14px;
 
      &:hover {
-         background-color: $color-link-hover;
+         background-color: lighten($color-link, 20%);
+         color: $color-light-text;
+     }
+ }
+
+ .btn-quote {
+    border: none;
+    background-color: $color-banner;
+    color: #fff;
+    height: 45px;
+    text-transform: uppercase;
+    padding: 12px 22px;
+    margin-left: 15px;
+    
+     &:hover {
+         background-color: darken($color-banner, 5%);
          color: $color-light-text;
      }
  }

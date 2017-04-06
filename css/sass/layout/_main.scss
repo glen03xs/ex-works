@@ -99,23 +99,22 @@
 }
 
 .content-title {
+    margin-bottom: 38px;
     h2 {
         margin: 0;
     }
 
     hr {
         margin-top: 10px;
+
     }
     
     a {
         float: right;
-        margin-top: -30px;
+        margin-top: -40px;
     }
 }
 
-.list-services {
-    margin-top: $baseline * 1.5;
-}
 
 .icon-holder {
         background-color: $color-link;
@@ -158,32 +157,6 @@
     }
 }
 
-.about {
-
-    hr {
-        margin-bottom: $baseline * 1.25;
-    }
-    h5 {
-        margin-top: 38px;
-    }
-    span p {
-        margin: 0;
-    }
-}
-
-.about-video {
-
-}
-
-/*-------------- Features --------------*/
-.features-cta {
-    padding: $baseline * 3 0;
-
-    h2, h3 {
-        margin: 4px;
-    }
-}
-
 .features {
 
 
@@ -196,7 +169,7 @@
     }
 
     p {
-        margin-bottom: 30px;
+        margin: 0 0 36px 0;
     }
 
     ul {
@@ -235,30 +208,144 @@
     }
 }
 
-.side-bg {
-    position: relative;
-}
-
-.pull-right {
+.about {
+    background-color: rgba(0,0,0,.8);
     float: right;
+    padding: $baseline * 2 $baseline * 2.5;
+    max-width: 520px;
+    height: auto;
+
+    h3 {
+        color: $color-1;
+        margin-top: 0;
+    }
+
+    hr {
+        margin: 0 0 24px 0;
+    }
+
+    p {
+        color: #fff;
+        font-size: 17px;
+        line-height: $baseline * 1.5;
+        margin-bottom: 26px;
+    }
+
+    h5 {
+        color: $color-2;
+        font-size: 16px;
+        margin: 2px 0 0 0;
+    }
+    span p {
+        color: $color-1;
+        font-size: 12px;
+        margin: 0;
+    }
 }
 
-.bg-container {
-    height: 100%;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    top: 0;
+/*-------------- BANNER CTA --------------*/
+.banner-cta {
+    background: url(../img/cta-bg.jpg);
+    max-height: 150px;
+    padding: $baseline * 2.5 0;
 }
 
-.quote-bg {
-    background: url(../img/free-quote-bg2.jpg);
-    background-position: 50% 50%!important;
-    background-size: cover!important;
+.cta-text {
+    float: left;
+
+    h3 {
+        margin: 14px 0;
+        color: #fff;
+    }
+}
+
+.cta-btn {
+    float: right;
+    
+    .c-color {
+        background-color: $color-banner;
+        margin-right: 4px;
+    }
+
+    a {
+        line-height: 46px;
+        
+    }
+}
+
+.c-color {
+    background-color: $color-banner;
+}
+
+/*-------------- Content Articles --------------*/
+.content-articles {
+    padding: $baseline * 3 0;
+}
+
+.article-info {
+    
+    a {
+        float: right;
+    }
+}
+
+/*-------------- Maps --------------*/
+.content-map {
+    background: url(../img/ex-works-map.jpg) no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    z-index: 0;
+    height: 314px;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 50%;
+        right: 20%;
+    }
 }
 
+/*-------------- Quote --------------*/
+.content-quote {
+    background: url(../img/quote-bg.jpg);
+    padding: $baseline * 2 0;
+
+    h3 {
+        font-size: 30px;
+    }
+
+    strong {
+        text-decoration: underline;
+    }
+
+}
+
+.medium-text {
+    font-size: 16px;
+}
+
+.quote-form {
+    padding: 0 50px;
+
+    div {
+        margin-bottom: 14px;
+        color: $color-text;
+    }
+
+    div:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*-------------- Partners --------------*/
+.partners {
+    padding: $baseline * 3 0;
+
+    h3 {
+        text-align: center;
+        margin: 0 0 $baseline 0;
+    }
+
+    img {
+        vertical-align: middle;
+   }
+}

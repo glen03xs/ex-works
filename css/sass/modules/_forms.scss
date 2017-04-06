@@ -2,6 +2,37 @@
   Forms Styles
 * --------------------------------------------------------------------------------------*/
 
- form {
+ form { 
+   input::placeholder, textarea::placeholder {
+    color: $color-text;
+}  
+   input, select, textarea {
+    color: $color-text;
+    background-color: rgba(114, 114, 114, .3);
+    border: solid 1px $color-1;
+    width: 100%;
+    padding: 0 3px;
+  }
 
- }
+   input, select {
+    height: 38px;
+  }
+
+  input, textarea {
+    padding: 12px 22px;
+  }
+
+  select {
+    padding: 0 10px;
+    
+  }
+
+  textarea {
+    height: 160px;
+  }
+
+  input[type="submit"] {
+    width: auto;
+  }
+
+}

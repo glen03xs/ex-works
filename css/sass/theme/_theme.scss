@@ -108,44 +108,7 @@ blockquote cite {
 
 
 /* Buttons */
-.btn {
-	background-color: $color-1;
 
-	color: $color-text;
-
-	border-color: darken($color-1, 20%);
-
-
-	&:hover {
-		background-color: darken($color-1, 5%);
-	}
-}
-
-.btn-primary {
-	background-color: $color-link;
-
-	color: #fff;
-
-	border-color: darken($color-link, 20%);
-
-
-	&:hover {
-		background-color: $color-link-hover;
-	}
-}
-
-.btn-secondary {
-	background-color: $color-2;
-
-	color: #fff;
-
-	border-color: darken($color-2, 20%);
-
-
-	&:hover {
-		background-color: darken($color-2, 5%);
-	}
-}
 
 
 

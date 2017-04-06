@@ -10,15 +10,44 @@
          margin-top: 38px;
 
          li {
-            margin-left: 22px;
+            background-color: #fff;
+            
+            &:hover {
+                     background-color: #fff;
+                     color: $color-banner;
+                 }
 
-            a {
-                font-size: 16px;
-                font-weight: 600;
+             a {
+                color: $color-link;
                 text-transform: uppercase;
-            }
-        }
+                font-weight: 700;
+
+                &:hover {
+                     color: $color-banner;
+                 }
+
+                 
+             }
+         }
      }
+
+
+
+
+    //  nav {
+    //      float: right;
+    //      margin-top: 38px;
+
+    //      li {
+    //         margin-left: 22px;
+
+    //         a {
+    //             font-size: 16px;
+    //             font-weight: 600;
+    //             text-transform: uppercase;
+    //         }
+    //     }
+    //  }
  }
 
 .search {

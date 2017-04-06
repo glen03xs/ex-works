@@ -2,4 +2,63 @@
 * Footer
 * --------------------------------------------------------------------------------------*/
 
- .l-footer {}
+ .footer-top {
+    background-color: #0c3d4a;
+    padding: $baseline * 2 0;
+    color: #fff;
+
+    ul {
+        margin: 0;
+        padding-left: 12px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    h4 {
+        color: $color-2;
+        margin-bottom: 8px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    .footer-social {
+        margin-top: 18px;
+     
+        i {
+         background-color: $color-2;
+         color: $color-link;
+         font-size: 24px;
+         height: 42px;
+         width: 42px;
+         text-align: center;
+         line-height: 42px;
+
+         &:hover {
+             background-color: $color-banner;
+             color: #fff;
+            }
+        }
+    li {
+        margin: 0 0 0 4px;
+    }
+    }
+ }
+
+.footer-bottom {
+    padding: 14px 0;
+    background-color: $color-text;
+    border-top: 2px solid $color-banner;
+    color: $color-2;
+
+    p {
+        margin: 0;
+    }
+}

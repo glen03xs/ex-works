@@ -5,30 +5,14 @@
  */
 
 $(document).ready(function() {
-    $("#main-slides").owlCarousel({
-    
-    items : 5,
-    navigation : true, // Show next and prev buttons
-    slideSpeed : 10,
-    paginationSpeed : 10,
-    singleItem:true,
-    autoPlay: true
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
-  });
-});
-
-$(document).ready(function(){
-		jQuery('ul.sf-menu').superfish({
-      delay: 300,
-      cssArrows: false
-    });
+    function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+   }
 });
 
 
