@@ -46,9 +46,13 @@
              color: #fff;
             }
         }
-    li {
-        margin: 0 0 0 4px;
+        li {
+            margin: 0 0 0 4px;
+        }
     }
+    
+    .contact-info li i {
+        color: $color-banner;
     }
  }
 

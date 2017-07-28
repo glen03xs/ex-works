@@ -16,9 +16,10 @@
         <!--Stylesheets-->
         <link rel="stylesheet" href="css/font-awesome.css">
         <link href="https://fonts.googleapis.com/css?family=Catamaran|Open+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="css/owl.theme.css">
+        <!--<link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/owl.transitions.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">-->
+        <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/superfish.css" media="screen">
         <link rel="stylesheet" href="css/styles.css">
 
@@ -30,30 +31,64 @@
             <div class="main-header">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-8 col-sm-10 pull-right-md pull-left-sm col-xs-8">
+                            <div class="top-bar">
+                                <ul class="inline">
+                                    <li class="hidden-xs"><a href="call:+6323107099"><i class="fa fa-phone"></i> (632) 310 7099</a></li>
+                                    <li class="hidden-xs"><a href="mailto:info@ex-worksph.com"><i class="fa fa-envelope"></i> info@ex-worksph.com</a></li>
+                                    <li class="hidden-xs"><a href="#"><i class="fa fa-comments"></i> Chat with Us</a></li>
+                                    <li class="quote-top"><a href="#" class="btn-top-quote">Get your quote</a></li>
+                                </ul>
+                                
+                            </div> <!--end top-bar-->
+                        </div> <!--end col-md-8-->
+                        <div class="hidden-md hidden-lg col-sm-2 col-xs-4">
+                            <div class="mob-menu">
+                                <div class="mobile-menu-icon">
+                                    <a class="nav-menu"><i class="fa fa-bars"></i></a>
+                                </div> <!--end mobile-menu-icon-->
+                                <nav>
+                                    <ul class="nav">
+                                        <li><a href="index.html" class="current-page">Home</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="services.html">Services</a>
+                                            <ul>
+                                                <li><a href="#">Air Freight</a></li>
+                                                <li><a href="#">Sea Freight</a></li>
+                                                <li><a href="#">Door Delivery</a></li>
+                                                <li><a href="#">Foreign Trade Agency</a></li>
+                                                <li><a href="#">Customs Clearance</a></li>
+                                                <li><a href="#">Domestic Freight</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Resources</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li class="mob-search"><a href="#"><i class="fa fa-search"></i></a>
+                                            <form>
+                                                <input placeholder="Search..." type="text" value="" name="search" class="mob-search-input">
+                                                <button type="submit" class="mob-search-btn"><span class="fa fa-search"></span></button>
+                                            </form>
+                                        </li>
+                                        <li class="hidden-sm mob-menu-custom"><a href="call:+6323107099"><i class="fa fa-phone"></i> (632) 310 7099</a></li>
+                                        <li class="hidden-sm mob-menu-custom"><a href="mailto:info@ex-worksph.com"><i class="fa fa-envelope"></i> info@ex-worksph.com</a></li>
+                                        <li class="hidden-sm mob-menu-custom"><a href="#"><i class="fa fa-comments"></i> Chat with Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div> <!--end mobile-menu-->
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12 pull-left-md">
                             <div class="logo-area">
-                                <img src="img/ex-works-logo.png" alt="Ex-works Logo">
+                                <a href="index.html"><img src="img/ex-works-logo.png" alt="Ex-works Logo"></a>
                                 <p>We Make it Happen, We Make it Work</p>  
                             </div> <!--end logo-area-->
                         </div> <!--end col-lg-4-->
-                        <div class="col-md-8">
-                            <div class="top-bar">
-                                <ul class="inline">
-                                    <li><i class="fa fa-phone"></i> (632) 310 7099</li>
-                                    <li><i class="fa fa-envelope"></i> info@ex-worksph.com</li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> Chat with Us</a></li>
-                                    <li><a href="#" class="btn-top-quote">Get your quote</a></li>
-                                </ul>
-                            </div> <!--end top-bar-->
-                        </div> <!--end col-md-8-->
-                        <div class="col-md-8">
-                            <div class="search">
-                                <span><a href="#"><i class="fa fa-search"></i></a></span>
-                            </div><!--end search-->
-                            <nav>
+                        <div class="col-md-8 hidden-sm hidden-xs">
+                            <nav class="main-nav">
                                 <ul class="main-nav sf-menu sf-vertical">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">Services</a>
+                                    <li><a href="index.html" class="current-page">Home</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="services.html">Services</a>
                                         <ul>
                                             <li><a href="#">Air Freight</a></li>
                                             <li><a href="#">Sea Freight</a></li>
@@ -64,9 +99,15 @@
                                         </ul>
                                     </li>
                                     <li><a href="#">Resources</a></li>
-                                    <li><a href="#">News / Articles</a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#">Contact Us</a></li>
+                                     <!-- <div id="sb-search" class="sb-search">
+                                        <!-- <form>
+                                            <input placeholder="Search..." type="text" value="" name="search" class="sb-search-input">
+                                            <button type="submit" class="search-submit"><span class="sb-icon-search fa fa-search"></span></button>
+                                        </form> -->
+                                    <!-- </div> end head-search  -->
+                                    <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </nav>
                         </div> <!--end col-md-8-->
@@ -75,79 +116,45 @@
             </div>  <!--end main-header-->
         </header>
 
-        <!--SLIDER-->
+        <!--WELCOME-->
         <section>
-            <div class="main-slider s-adjust">
-                <ul class="hero-slides" id="main-slides">
-                    <li class="slide selected-slide">
-                        <div class="slide-content">
-                            <div class="slide-text">
-                                <h2>Welcome to Ex-works Cargo Services</h2>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
-                                <a href="#" class="btn-slider">LEARN MORE <i class="fa fa-chevron-circle-right"></i></a>
-                            </div> <!-- slide text-->
-                        </div> <!-- slide-content-->
-                        <div class="slide-img"><img src="img/slider/slide-01.jpg" alt=""></div> <!--end slide-img-->
-                    </li> <!-- slide -->
-                    <li class="slide">
-                        <div class="slide-content">
-                            <div class="slide-text">
-                                <h2>We Make it happen, We Make it work</h2>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
-                                <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
-                            </div> <!-- slide text-->
-                        </div> <!-- slide-content-->
-                        <div class="slide-img"><img src="img/slider/slide-02.jpg" alt=""></div> <!--end slide-img-->
-                    </li> <!-- slide -->
-                    <li class="slide">
-                        <div class="slide-content">
-                            <div class="slide-text">
-                                <h2>Unload your tension we will carry</h2>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
-                                <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
-                            </div> <!-- slide text-->
-                        </div> <!-- slide-content-->
-                        <div class="slide-img"><img src="img/slider/slide-03.jpg" alt=""></div> <!--end slide-img-->
-                    </li> <!-- slide -->
-                    <li class="slide">
-                        <div class="slide-content">
-                            <div class="slide-text">
-                                <h2>Transporting your goods Retaining your Trust</h2>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
-                                <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
-                            </div> <!-- slide text-->
-                        </div> <!-- slide-content-->
-                        <div class="slide-img"><img src="img/slider/slide-04.jpg" alt=""></div> <!--end slide-img-->
-                    </li> <!-- slide -->
-                    <li class="slide">
-                            <div class="slide-content">
-                                <div class="slide-text">
-                                    <h2>Your deadline is OUR Focus</h2>
-                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
-                                    <a href="#" class="btn-slider">LEARN MORE<i class="fa fa-chevron-circle-right"></i></a>
-                                </div> <!-- slide text-->
-                            </div> <!-- slide-content-->
-                        <div class="slide-img"><img src="img/slider/slide-05.jpg" alt=""></div> <!--end slide-img-->
-                    </li> <!-- slide -->
-                </ul>
-                <div class="slider-nav">
-
-                </div> <!--slider nav-->
-            </div> <!--main-slider-->
+            <div class="main-welcome" data-stellar-background-ratio="0.6">
+                <div class="display-table">
+                    <div class="display-table-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="header-text text-center">
+                                        <h1>Welcome to Ex-works Cargo Services</h1>
+                                        <h1 class="typewrite" data-period="2000" data-type='[ "We make it Happen, We Make it work", "Global Solutions for Global traders"]'>
+                                            <span class="wrap"></span>
+                                        </h1>
+                                        <div class="hero-cta">
+                                            <a href="#" class="btn-hero">Our Sevices</a>
+                                            <a href="#" class="btn-primary">Free Quote</a>
+                                        </div><!--end hero-cta-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        
 
         <!--SERVICES-->
         <section>
-            <div class="content-services s-adjust">
+            <div class="content-services">
                 <div class="container">
                     <div class="row">
                         <div class="content-title">
                             <h2>Services</h2>
                             <hr class="red-line">
-                            <a href="#" class="btn-primary">View All</a>
+                            <a href="services.html" class="btn-primary">View All</a>
                         </div> <!--end content-title-->
                         <div class="list-services">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="service-box">
                                     <div class="icon-holder">
                                         <i class="fa fa-plane"></i>
@@ -159,7 +166,7 @@
                                     </div> <!--end service-info-->
                                 </div> <!--end service-box-->
                             </div> <!--end col-md-3-->
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="service-box">
                                     <div class="icon-holder">
                                         <i class="fa fa-ship"></i>
@@ -171,12 +178,12 @@
                                     </div> <!--end service-info-->
                                 </div> <!--end service-box-->
                             </div> <!--end col-md-3-->
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
                                 <div class="service-box">
                                     <div class="icon-holder">
                                         <i class="fa fa-truck"></i>
                                     </div> <!--end icon-holder-->
-                                    <div class="service-info">
+                                    <div class="service-info last-srv">
                                         <h3>Door Delivery</h3>
                                         <p>Our experienced and knowledgeable staff ensures a timely,well organized, cost effective deliveries for whatever air shipment you need to transport. It’s a fast, efficient air freight service you can truly rely on.</p>
                                         <a href="#">View Details</a>
@@ -198,9 +205,9 @@
                         <div class="content-title">
                             <h2>Why Choose Us</h2>
                             <hr class="red-line">
-                            <a href="#" class="btn-primary">Learn More</a>
+                            <a href="#" class="btn-primary hide-xs">Learn More</a>
                         </div> <!--end content-title-->
-                       <div class="col-md-6">
+                       <div class="col-md-6 col-sm-6">
                             <div class="features">
                                 <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a.</p>
                                 <ul>
@@ -226,9 +233,10 @@
                                         </div> <!--end feature-text-->
                                     </li>
                                 </ul>
+                                <a href="#" class="btn-primary show-xs">Learn More</a>
                             </div> <!--end feature-->
                         </div> <!--end col-md-6-->
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <div class="about">
                                 <h3>Ex-works Commitment</h3>
                                 <hr>
@@ -251,10 +259,12 @@
                         <div class="cta-text">
                             <h3>Let Us Help You to Find a Solution That Meets Your Needs</h3>
                         </div><!--end cta-text-->
-                        <div class="cta-btn">
-                            <a href="#" class="btn-primary c-color">Get free quote</a>
-                             <a href="#" class="btn-primary">Lets Talk</a>
-                        </div> <!--end cta-btn-->
+                     
+                        <ul class="cta-btn">
+                            <li><a href="#" class="btn-primary c-color">Get free quote</a></li>
+                            <li><a href="#" class="btn-primary">Lets Talk</a></li>
+                        </ul>
+
                     </div> <!--end col-md-12-->
                 </div> <!--end container-->
             </div> <!--end banner-cta-->
@@ -271,7 +281,7 @@
                             <hr class="red-line">
                             <a href="#" class="btn btn-primary">View All</a>
                         </div> <!--end content-title-->
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="articles">
                                 <img src="img/blog-img-1.jpg" alt="">
                                 <div class="article-info">
@@ -281,7 +291,7 @@
                                 </div><!--end article-info-->
                             </div> <!--end articles-->
                         </div> <!--end col-md-4-->
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="articles">
                                 <img src="img/blog-img-2.jpg" alt="">
                                 <div class="article-info">
@@ -291,7 +301,7 @@
                                 </div><!--end article-info-->
                             </div> <!--end articles-->
                         </div> <!--end col-md-4-->
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 hidden-sm hidden-xs">
                             <div class="articles">
                                 <img src="img/blog-img-3.jpg" alt="">
                                 <div class="article-info">
@@ -310,7 +320,7 @@
         <section>
             <div class="content-map">
                 <div id="map">
-                    <img src="img/ex-works-map-marker.png" alt="">
+
                 </div>
             </div> <!--end map-->
         </section>
@@ -320,20 +330,20 @@
             <div class="partners">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-12">
                             <h3>Our Partners</h3>
                         </div> <!--end col-md-3-->
-                        <div class="col-md-10">
-                            <div class="col-md-3">
+                        <div class="col-md-10 col-sm-12">
+                            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
                                 <img src="img/partner-01.png" alt="">
                             </div> <!--end col-md-3-->
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
                                 <img src="img/partner-02.png" alt="">
                             </div> <!--end col-md-3-->
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
                                 <img src="img/partner-03.png" alt="">
                             </div> <!--end col-md-3-->
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
                                 <img src="img/partner-04.png" alt="">
                             </div> <!--end col-md-3-->
                         </div> <!--end col-md-10-->
@@ -347,7 +357,7 @@
             <div class="content-quote">
                 <div class="container">
                     <div class="row">
-                       <div class="col-md-6">
+                       <div class="col-md-6 col-sm-12 col-xs-12">
                            <div class="quote-text">
                                 <h3>Feel Free to Request a <strong>Free Quote</strong></h3>
                                 <p class="medium-text">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac.</p>
@@ -355,16 +365,16 @@
                                 <p>Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Vestibulum iaculis lacinia est. Proin dictum elementum velit.</p>
                            </div> <!--end quote-text-->
                         </div> <!--end col-md-6-->
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="quote-form">
                                 <form>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <input type="text" id="quote-name" name="quote-name" placeholder="Full Name">
                                     </div> <!--end col-md-12-->
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <input type="email" id="quote-email" name="quote-email" placeholder="Email Address">
                                     </div> <!--end col-md-12-->
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <select name="quote-project-type" id="quote-project-type">
                                             <option value="0">- Solution Required -</option>
                                             <option value="1">Air Freight</option>
@@ -373,13 +383,13 @@
                                             <option value="4">Others</option>
                                         </select> <!--end col-md-12-->
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
                                         <input type="number" id="quote-weight" name="quote-weight" placeholder="Weight">
                                     </div> <!--end col-md-6-->
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
                                         <input type="text" id="quote-dimension" name="quote-dimension" placeholder="Dimension">
                                     </div> <!--end col-md-6-->
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
                                         <textarea name="quote-shipment-details" id="quote-shipment-details" placeholder="Shipment Details"></textarea>
                                     </div><!--end col-md-12 --> 
                                     <div class="cta">
@@ -397,16 +407,16 @@
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <img src="img/ex-works-footer-logo.png" alt="">
                             <p>As a customer you have daily challenges. It’s a very competitive business world requiring good decision to match complex problems. Our Stakeholders opinions are very important to us.</p>
                         </div> <!--end col-md-3-->
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h4>Contact</h4>
-                            <ul>
+                            <ul class="contact-info">
                                 <li><i class="fa fa-map-marker"></i> R 319 First United Building, Escolta St, Binondo Manila, 1006 PH</li>
                                 <li><i class="fa fa-phone"></i> (632) 310 70 99 | (632) 514 54 64</li>
-                                <li><i class="fa fa-envelop"></i> info@ex-worksph.com</li>
+                                <li><i class="fa fa-envelope"></i> info@ex-worksph.com</li>
                             </ul>
                             <ul class="footer-social inline">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -415,19 +425,20 @@
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                             </ul>
                         </div> <!--end col-md-3-->
-                        <div class="col-md-3 text-center">
+                        <div class="col-spacer">&nbsp;</div>
+                        <div class="col-md-3 col-sm-6 text-center">
                             <h4>Navigation</h4>
                             <ul>
                                 <li><a href="#">Articles</a></li>
                                 <li><a href="#">News</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="services.html">Services</a></li>
                                 <li><a href="#">Careers</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">Sitemap</a></li>
                                 <li><a href="#">About</a></li>
                             </ul>
                         </div> <!--end col-md-3-->
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h4>Resources</h4>
                             <ul>
                                 <li><a href="#">Air Container</a></li>
@@ -449,11 +460,90 @@
             </div> <!--end footer-bottom-->
         </footer>
 
+        <div class="sticky-menu-container js-sticky-menu" id="stickyNav" data-top="200">
+            <div class="container">
+                <div class="sticky-menu">
+                    <div class="sticky-menu-logo">
+                        <a href="index.html">
+                            <img src="img/ex-works-logo.png" alt="Ex-works" class="img-fluid">
+                        </a>
+                    </div> <!--end sticky-menu-logo-->
+                    <nav class="sticky-menu-nav hidden-sm hidden-xs">
+                        <ul class="main-nav sf-menu sf-vertical">
+                            <li><a href="index.html" class="current-page">Home</a></li>
+                            <li><a href="services.html">Services</a>
+                                <ul>
+                                    <li><a href="#">Air Freight</a></li>
+                                    <li><a href="#">Sea Freight</a></li>
+                                    <li><a href="#">Door Delivery</a></li>
+                                    <li><a href="#">Foreign Trade Agency</a></li>
+                                    <li><a href="#">Customs Clearance</a></li>
+                                    <li><a href="#">Domestic Freight</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li class="sticky-search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </nav>
+                    <div class="mob-menu hidden-md hidden-lg">
+                            <div class="mobile-menu-icon">
+                                <a class="nav-sticky-menu"><i class="fa fa-bars"></i></a>
+                            </div> <!--end mobile-menu-icon-->
+                            <nav>
+                                <ul class="nav-sticky" id="nav" >
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="services">Services</a>
+                                        <ul>
+                                            <li><a href="#">Air Freight</a></li>
+                                            <li><a href="#">Sea Freight</a></li>
+                                            <li><a href="#">Door Delivery</a></li>
+                                            <li><a href="#">Foreign Trade Agency</a></li>
+                                            <li><a href="#">Customs Clearance</a></li>
+                                            <li><a href="#">Domestic Freight</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li class="hidden-sm mob-menu-custom"><a href="call:+6323107099"><i class="fa fa-phone"></i> (632) 310 7099</a></li>
+                                    <li class="hidden-sm mob-menu-custom"><a href="mailto:info@ex-worksph.com"><i class="fa fa-envelope"></i> info@ex-worksph.com</a></li>
+                                    <li class="hidden-sm mob-menu-custom"><a href="#"><i class="fa fa-comments"></i> Chat with Us</a></li>
+                                    <!--<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>-->
+                                </ul>
+                            </nav>
+                        </div> <!--end mobile-menu-->
+                </div> <!--end sticky-menu-->
+            </div> <!--end container-->
+        </div> <!--end sticky-menu-container-->
+
 <!--Scripts-->
+        <script>
+            function initMap() {
+                var uluru = {lat: 14.598996, lng: 120.981875};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 18,
+                center: uluru,
+                scrollwheel:  false
+                });
+                var image = 'img/ex-works-map-marker.png';
+                var beachMarker = new google.maps.Marker({
+                position: {lat: 14.599004, lng: 120.979352},
+                map: map,
+                icon: image
+        });
+            }
+        </script>
         <script src="js/jquery-3.2.0.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        <script src="js/hoverIntent.js"></script>
+        <script src="js/jquery.meanmenu.js"></script>
+        <!--<script src="js/jquery.flexslider.js"></script>-->
+        <!--<script src="js/hoverIntent.js"></script>-->
+        <script src="js/jquery.uisearch.min.js"></script>
         <script src="js/superfish.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOcd0U-nekMHUv_KcQ7XRiadwQWPRFquI&callback=initMap"></script>
         <script src="js/scripts.js"></script>
         
     </body>

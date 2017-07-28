@@ -6,10 +6,12 @@
     color: #fff;
     text-transform: uppercase;
     background-color: $color-banner;
+    @include transition (all, 0.10s, ease);
     padding: 8px 16px;
     
     &:hover {
         background-color: darken($color-banner, 5%);
+        @include transition (all, .3s, ease-out);
         color: #fff;
     }
  }
@@ -22,22 +24,24 @@
 
      &:hover {
          background-color: lighten($color-link, 20%);
+         @include transition (all, .3s, ease-out);
          color: $color-light-text;
      }
 }
 
  .btn-top-quote {
      background-color: $color-link;
-     border: none;
+     border-bottom: 1px solid #fff;
      color: $color-light-text;
      display: inline-block;
      height: 40px;
      line-height: 40px;
      text-transform: uppercase;
      padding: 0 14px;
-
+    
      &:hover {
          background-color: lighten($color-link, 20%);
+         @include transition (all, .3s, ease-out);
          color: $color-light-text;
      }
  }
@@ -53,8 +57,44 @@
     
      &:hover {
          background-color: darken($color-banner, 5%);
+         @include transition (all, .3s, ease-out);
          color: $color-light-text;
      }
  }
 
+ .btn-hero {
+    border: solid 2px $color-banner;
+    background-color: rgba(0,0,0, .15);
+    color: #fff;
+    height: 41px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-left: 15px;
 
+    &:hover {
+        background-color: $color-banner;
+         @include transition (all, .3s, ease-out);
+         color: $color-light-text;
+    }
+
+ }
+
+
+/* Medium devices (desktops, 557px and up) */
+@media (max-width: 557px) { 
+    .btn-primary {
+        padding: 8px 12px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+    }
+
+    .btn-quote {
+        padding: 8px 12px;
+    }
+    
+    .btn-hero {
+        padding: 6px 10px;
+    }
+}

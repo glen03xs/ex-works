@@ -18,6 +18,35 @@
      display: inline-block;
  }
 
+.pull-right-md {
+    float: right !important
+}
+
+.pull-left-md {
+    float: left !important
+}
+
+
+
+/* Medium devices (desktops, 992px and down) */
+@media (max-width: 992px) { 
+
+.pull-right-sm {
+    float: right !important
+}
+
+.pull-left-sm {
+    float: left !important
+}
+}
 
 /*-------------- Utilities --------------*/
 
+/* @include transition(all,2s,ease-out); */
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+    -webkit-transition: $what $time $how;
+    -moz-transition:    $what $time $how;
+    -ms-transition:     $what $time $how;
+    -o-transition:      $what $time $how;
+    transition:         $what $time $how;
+}

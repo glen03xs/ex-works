@@ -1,0 +1,23 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+var uluru = {lat: 14.598960, lng: 120.976612};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 18,
+                center: uluru,
+                scrollwheel:  false
+                });
+                var image = 'img/ex-works-map-marker.png';
+                var beachMarker = new google.maps.Marker({
+                position: {lat: 14.599004, lng: 120.979352},
+                map: map,
+                icon: image
