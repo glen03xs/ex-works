@@ -1697,19 +1697,34 @@ blockquote {
   .page-header h2 {
     font-size: 4rem;
     float: left;
-    padding-top: 42px;
+    padding-top: 70px;
+    margin-top: 0;
     color: #e1e1e1; }
   .page-header ul {
+    background: rgba(0, 0, 0, 0.5);
     float: right;
     font-size: 18px;
     list-style-type: none;
-    padding-top: 56px; }
+    margin-top: 68px;
+    padding: 3px 8px 5px; }
     .page-header ul li {
       display: inline; }
+      .page-header ul li a {
+        color: #fff; }
     .page-header ul li:first-child a {
-      color: red; }
+      color: #e1e1e1; }
+    .page-header ul li:last-child a {
+      padding-left: 8px; }
+    .page-header ul li + li:before {
+      color: #e1e1e1;
+      content: " \203A ";
+      font-size: 24px;
+      padding: 0 8px; }
 
 /*-------------- SERVICES PAGE --------------*/
+.services-all h2 {
+  padding: 42px 0 42px;
+  text-align: center; }
 .services-all .service-box {
   margin-bottom: 84px; }
 
@@ -2011,7 +2026,7 @@ blockquote {
   .cta-text h3 {
     line-height: 26px;
     margin-top: 6px; } }
-/* Medium devices (desktops, 5578px and up) */
+/* Medium devices (desktops, 557px and up) */
 @media (max-width: 557px) {
   .display-table {
     padding: 40px 0 50px; }
@@ -2033,7 +2048,16 @@ blockquote {
 
   .show-xs {
     margin: 36px auto 0;
-    display: table; } }
+    display: table; }
+
+  .page-header h2 {
+    float: none;
+    padding-top: 48px;
+    text-align: center; }
+  .page-header ul {
+    font-size: 14px;
+    margin-top: 16px;
+    padding: 0px 8px 4px; } }
 @media (max-width: 470px) {
   .main-welcome {
     min-height: 210px;
@@ -2076,6 +2100,8 @@ blockquote {
   background-color: #0c3d4a;
   padding: 42px 0;
   color: #fff; }
+  .footer-top .footer-logo img {
+    width: 98%; }
   .footer-top ul {
     margin: 0;
     padding-left: 12px; }
@@ -2114,6 +2140,9 @@ blockquote {
   .footer-bottom p {
     margin: 0; }
 
+@media (max-width: 768px) {
+  .footer-top .footer-logo img {
+    width: auto; } }
 /*-------------- Modules --------------*/
 /* ---------------------------------------------------------------------------------------
  Button Styles

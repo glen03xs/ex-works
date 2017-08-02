@@ -7,6 +7,13 @@
     padding: $baseline * 2 0;
     color: #fff;
 
+    .footer-logo {
+
+        img {
+            width: 98%;
+        }
+    }
+
     ul {
         margin: 0;
         padding-left: 12px;
@@ -65,4 +72,12 @@
     p {
         margin: 0;
     }
+}
+
+@media (max-width: 768px) {
+
+    .footer-top .footer-logo img {
+        width: auto;
+}
+
 }

@@ -117,8 +117,8 @@
                
                     <h2>Services</h2>
                     <ul class="breadcrumbs">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a>Services</a></li>
                     </ul> <!--end breadcrumbs-->
                 </div> <!--end container-->
             </div> <!--end pages-header-->
@@ -128,6 +128,7 @@
         <section>
             <div class="services-all">
                 <div class="container">
+                    <h2>We Only Offer the Best</h2>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="service-box">
@@ -206,12 +207,81 @@
             </div> <!--end services-all-->
         </section>
 
+        <!--CTA-->
+        <section>
+            <div class="banner-cta">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="cta-text">
+                            <h3>Let Us Help You to Find a Solution That Meets Your Needs</h3>
+                        </div><!--end cta-text-->
+                     
+                        <ul class="cta-btn">
+                            <li><a href="#" class="btn-primary c-color">Get free quote</a></li>
+                            <li><a href="#" class="btn-primary">Lets Talk</a></li>
+                        </ul>
+
+                    </div> <!--end col-md-12-->
+                </div> <!--end container-->
+            </div> <!--end banner-cta-->
+        </section>
+        
+        <!--QUOTE AREA-->
+        <section>
+            <div class="content-quote">
+                <div class="container">
+                    <div class="row">
+                       <div class="col-md-6 col-sm-12 col-xs-12">
+                           <div class="quote-text">
+                                <h3>Feel Free to Request a <strong>Free Quote</strong></h3>
+                                <p class="medium-text">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac.</p>
+                                <p>Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Sed in lacus ut enim adipiscing aliquet.</p>
+                                <p>Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Vestibulum iaculis lacinia est. Proin dictum elementum velit.</p>
+                           </div> <!--end quote-text-->
+                        </div> <!--end col-md-6-->
+                        <div class="col-md-6 col-sm-12">
+                            <div class="quote-form">
+                                <form>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <input type="text" id="quote-name" name="quote-name" placeholder="Full Name">
+                                    </div> <!--end col-md-12-->
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <input type="email" id="quote-email" name="quote-email" placeholder="Email Address">
+                                    </div> <!--end col-md-12-->
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <select name="quote-project-type" id="quote-project-type">
+                                            <option value="0">- Solution Required -</option>
+                                            <option value="1">Air Freight</option>
+                                            <option value="2">Sea Freight</option>
+                                            <option value="3">Door Delivery</option>
+                                            <option value="4">Others</option>
+                                        </select> <!--end col-md-12-->
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <input type="number" id="quote-weight" name="quote-weight" placeholder="Weight">
+                                    </div> <!--end col-md-6-->
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <input type="text" id="quote-dimension" name="quote-dimension" placeholder="Dimension">
+                                    </div> <!--end col-md-6-->
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <textarea name="quote-shipment-details" id="quote-shipment-details" placeholder="Shipment Details"></textarea>
+                                    </div><!--end col-md-12 --> 
+                                    <div class="cta">
+                                        <input type="submit" class="btn-quote" value="Give me a quote" />
+                                    </div> <!-- end cta -->
+                                </form>
+                            </div> <!--end quote-area-->
+                        </div> <!--end col-md-6-->
+                    </div> <!--end row-->
+                </div> <!--end container -->
+            </div> <!--end content-about-->
+        </section>
 
         <footer>
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 footer-logo">
                             <img src="img/ex-works-footer-logo.png" alt="">
                             <p>As a customer you have daily challenges. It’s a very competitive business world requiring good decision to match complex problems. Our Stakeholders opinions are very important to us.</p>
                         </div> <!--end col-md-3-->
@@ -325,22 +395,6 @@
         </div> <!--end sticky-menu-container-->
 
 <!--Scripts-->
-        <script>
-            function initMap() {
-                var uluru = {lat: 14.598996, lng: 120.981875};
-                var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 18,
-                center: uluru,
-                scrollwheel:  false
-                });
-                var image = 'img/ex-works-map-marker.png';
-                var beachMarker = new google.maps.Marker({
-                position: {lat: 14.599004, lng: 120.979352},
-                map: map,
-                icon: image
-        });
-            }
-        </script>
         <script src="js/jquery-3.2.0.js"></script>
         <script src="js/jquery.meanmenu.js"></script>
         <!--<script src="js/jquery.flexslider.js"></script>-->
