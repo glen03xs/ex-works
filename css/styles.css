@@ -1690,44 +1690,6 @@ blockquote {
   .partners img {
     vertical-align: middle; }
 
-/*-------------- PAGE TITLE --------------*/
-.page-header {
-  background: url(../img/page-title.jpg) top fixed;
-  min-height: 160px; }
-  .page-header h2 {
-    font-size: 4rem;
-    float: left;
-    padding-top: 70px;
-    margin-top: 0;
-    color: #e1e1e1; }
-  .page-header ul {
-    background: rgba(0, 0, 0, 0.5);
-    float: right;
-    font-size: 18px;
-    list-style-type: none;
-    margin-top: 68px;
-    padding: 3px 8px 5px; }
-    .page-header ul li {
-      display: inline; }
-      .page-header ul li a {
-        color: #fff; }
-    .page-header ul li:first-child a {
-      color: #e1e1e1; }
-    .page-header ul li:last-child a {
-      padding-left: 8px; }
-    .page-header ul li + li:before {
-      color: #e1e1e1;
-      content: " \203A ";
-      font-size: 24px;
-      padding: 0 8px; }
-
-/*-------------- SERVICES PAGE --------------*/
-.services-all h2 {
-  padding: 42px 0 42px;
-  text-align: center; }
-.services-all .service-box {
-  margin-bottom: 84px; }
-
 /*-------------- Responsive --------------*/
 /* Medium devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -2048,16 +2010,7 @@ blockquote {
 
   .show-xs {
     margin: 36px auto 0;
-    display: table; }
-
-  .page-header h2 {
-    float: none;
-    padding-top: 48px;
-    text-align: center; }
-  .page-header ul {
-    font-size: 14px;
-    margin-top: 16px;
-    padding: 0px 8px 4px; } }
+    display: table; } }
 @media (max-width: 470px) {
   .main-welcome {
     min-height: 210px;
@@ -2093,6 +2046,145 @@ blockquote {
 
   .banner-cta {
     max-height: 200px; } }
+/* ---------------------------------------------------------------------------------------
+PAGES SERVICES
+* --------------------------------------------------------------------------------------*/
+/*-------------- PAGE TITLE --------------*/
+.page-header {
+  background: url(../img/page-title.jpg) top fixed;
+  min-height: 160px; }
+  .page-header h2 {
+    font-size: 4rem;
+    float: left;
+    padding-top: 70px;
+    margin-top: 0;
+    color: #e1e1e1; }
+  .page-header ul {
+    background: rgba(0, 0, 0, 0.5);
+    float: right;
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 68px;
+    padding: 3px 8px 5px; }
+    .page-header ul li {
+      display: inline; }
+      .page-header ul li a {
+        color: #fff; }
+    .page-header ul li:first-child a {
+      color: #e1e1e1; }
+    .page-header ul li:last-child a {
+      padding-left: 8px; }
+    .page-header ul li + li:before {
+      color: #e1e1e1;
+      content: " \203A ";
+      font-size: 24px;
+      padding: 0 8px; }
+
+/*-------------- SERVICES ALL --------------*/
+.services-all h2 {
+  padding: 42px 0 42px;
+  text-align: center; }
+.services-all .service-box {
+  margin-bottom: 84px; }
+
+.services-details img {
+  display: block;
+  max-width: 100%; }
+.services-details h3 {
+  padding-top: 28px; }
+
+.img-align-left {
+  float: left; }
+
+.img-align-right {
+  float: right; }
+
+.img-thumb {
+  padding: 10px; }
+
+/*-------------- SERVICES PAGE--------------*/
+.services-page {
+  padding: 52.5px 0; }
+  .services-page aside {
+    margin: 0 8px; }
+    .services-page aside .services-list h4 {
+      font-weight: 600; }
+    .services-page aside .services-list ul {
+      list-style: none;
+      margin-left: 18px;
+      padding-left: 0;
+      border: 1px solid #aaaaaa; }
+      .services-page aside .services-list ul li {
+        border-bottom: 1px solid #aaaaaa;
+        padding: 10px 0; }
+        .services-page aside .services-list ul li a {
+          color: #183650;
+          font-size: 16px;
+          padding-left: 14px;
+          transition: .3s; }
+        .services-page aside .services-list ul li a:hover {
+          color: #c10f03;
+          font-weight: 600;
+          padding-left: 24px;
+          padding-right: 24px; }
+      .services-page aside .services-list ul li:last-child {
+        border-bottom: none; }
+      .services-page aside .services-list ul .active-services {
+        border-left: 3px solid #c10f03;
+        background-color: #e1e1e1; }
+    .services-page aside h4 {
+      margin-top: 12px; }
+    .services-page aside .recent-post-list h4 {
+      font-weight: 600; }
+    .services-page aside .recent-post-list ul {
+      list-style-type: none;
+      padding-left: 16px; }
+      .services-page aside .recent-post-list ul li {
+        border-bottom: 1px solid #aaaaaa; }
+      .services-page aside .recent-post-list ul a {
+        font-size: 18px;
+        line-height: 22px; }
+      .services-page aside .recent-post-list ul i {
+        color: #c10f03;
+        display: inline;
+        float: left;
+        font-size: 18px;
+        line-height: 24px;
+        margin-right: 10px; }
+      .services-page aside .recent-post-list ul p {
+        margin: 8px inherit;
+        padding-left: 18px; }
+    .services-page aside .recent-post-list li:last-child {
+      border: none; }
+    .services-page aside .email-newsletter {
+      border: 1px solid #2D3439;
+      margin-top: 52.5px;
+      padding: 20px; }
+      .services-page aside .email-newsletter h5 {
+        margin: 4px 0; }
+      .services-page aside .email-newsletter p {
+        margin-top: 8px; }
+      .services-page aside .email-newsletter form input:first-child {
+        margin-bottom: 12px; }
+      .services-page aside .email-newsletter form input[type=email] {
+        background: #f7f4f3;
+        padding: 8px; }
+      .services-page aside .email-newsletter form input::placeholder {
+        color: #aaaaaa; }
+
+/*--------------------------------------------------------------------------------------/*
+ Responsive
+/*--------------------------------------------------------------------------------------*/
+/* Medium devices (desktops, 557px and up) */
+@media (max-width: 557px) {
+  .page-header h2 {
+    float: none;
+    padding-top: 48px;
+    text-align: center; }
+  .page-header ul {
+    font-size: 14px;
+    margin-top: 16px;
+    padding: 0px 8px 4px; } }
  /* ---------------------------------------------------------------------------------------
 * Footer
 * --------------------------------------------------------------------------------------*/

@@ -1,0 +1,243 @@
+ /* ---------------------------------------------------------------------------------------
+ PAGES SERVICES
+ * --------------------------------------------------------------------------------------*/
+//  <div class="test"><p>Test</p></div>
+// .test {
+//     background-color: blue;
+
+//     p {
+//         text-align: center;
+//     }
+// }
+ /*-------------- PAGE TITLE --------------*/
+.page-header {
+    background: url(../img/page-title.jpg) top fixed;
+    min-height: 160px;
+
+    h2 {
+        font-size: 4rem;
+        float: left;
+        padding-top: 70px;
+        margin-top: 0;
+        color: $color-2;
+    }
+
+    ul {
+        background: rgba(0, 0, 0, 0.5);
+        float: right;
+        font-size: 18px;
+        list-style-type: none;
+        margin-top: 68px;
+        padding: 3px 8px 5px;
+        
+        
+        li {
+            display: inline;
+            
+            a {
+                color: #fff;
+            }
+        }
+
+        li:first-child a {
+            color: $color-2;
+            }
+
+        li:last-child a {
+            padding-left: 8px;
+        }
+
+        li+li:before {
+            color: $color-2;
+            content: " \203A ";
+            font-size: 24px;
+            padding: 0 8px;
+        }
+    }
+
+}
+
+/*-------------- SERVICES ALL --------------*/
+.services-all  {
+
+    h2 {
+        padding: $baseline * 2 0 $baseline * 2;
+        text-align: center;
+    }
+
+    .service-box {
+        margin-bottom: $baseline * 4;
+    }
+}
+
+.services-details {
+    
+    img {
+        display: block;
+        max-width: 100%;
+    }
+
+    h3 {
+        padding-top: 28px;
+    }
+}
+
+.img-align-left {
+    float: left;
+}
+
+.img-align-right {
+    float: right;
+}
+
+.img-thumb {
+    padding: 10px;
+}
+
+
+/*-------------- SERVICES PAGE--------------*/
+.services-page {
+    padding: $baseline * 2.5 0;
+
+    aside {
+        margin: 0 8px;
+
+        .services-list {
+
+            h4 {
+                font-weight: 600;
+            }
+
+            ul {
+                list-style: none;
+                margin-left: 18px;
+                padding-left: 0;
+                border: 1px solid #aaaaaa;
+
+                li {
+                    border-bottom: 1px solid #aaaaaa;
+                    padding: 10px 0;
+
+                    a {
+                        color: $color-link;
+                        font-size: 16px;
+                        padding-left: 14px;
+                        transition: .3s;
+                    }
+
+                    a:hover {
+                        color: $color-banner;
+                        font-weight: 600;
+                        padding-left: 24px;
+                        padding-right: 24px;
+                        
+                    }
+                }
+
+                li:last-child {
+                    border-bottom: none;
+                }
+
+                .active-services {
+                    border-left: 3px solid $color-banner;
+                    background-color: $color-2;
+                }
+            }
+    }
+        h4 {
+            margin-top: 12px;
+        }
+
+        .recent-post-list {
+            h4 {
+                font-weight: 600;
+            }
+            
+            ul {
+                list-style-type: none;
+                padding-left: 16px;
+
+                li {
+                    border-bottom: 1px solid $color-1;
+                }
+
+                a {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                
+                i {
+                    color: $color-banner;
+                    display: inline;
+                    float: left;
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin: 8px inherit;
+                    padding-left: 18px;
+                }
+            }
+
+            li:last-child {
+                border: none;
+            }
+        }
+
+        .email-newsletter {
+            border: 1px solid $color-callout;
+            margin-top: $baseline * 2.5;
+            padding: 20px;
+
+            h5 {
+                margin: 4px 0;
+            }
+
+            p {
+                margin-top: 8px;
+            }
+
+            form {
+
+                input:first-child {
+                    margin-bottom: 12px;
+                }
+
+                input[type=email] {
+                    background: $color-light-text;
+                    padding: 8px;
+                }
+
+                input::placeholder {
+                    color: $color-1;
+                }
+            }
+        }
+    }
+}
+
+/*--------------------------------------------------------------------------------------/*
+ Responsive
+/*--------------------------------------------------------------------------------------*/
+
+/* Medium devices (desktops, 557px and up) */
+@media (max-width: 557px) { 
+
+// PAGE TITLE
+    .page-header {
+
+        h2 {
+            float: none;
+            padding-top: 48px;
+            text-align: center;
+        }
+
+        ul {
+            font-size: 14px;
+            margin-top: 16px;
+            padding: 0px 8px 4px;
+        }
+    }
+}
