@@ -2056,9 +2056,18 @@ PAGES SERVICES
   .page-header h2 {
     font-size: 4rem;
     float: left;
-    padding-top: 70px;
+    padding-top: 66px;
     margin-top: 0;
     color: #e1e1e1; }
+  .page-header .page-title {
+    position: relative; }
+  .page-header .red-accent {
+    background: #c10f03;
+    float: left;
+    height: 3px;
+    position: absolute;
+    top: 100px;
+    width: 80px; }
   .page-header ul {
     background: rgba(0, 0, 0, 0.5);
     float: right;
@@ -2107,31 +2116,33 @@ PAGES SERVICES
   padding: 52.5px 0; }
   .services-page aside {
     margin: 0 8px; }
-    .services-page aside .services-list h4 {
-      font-weight: 600; }
-    .services-page aside .services-list ul {
-      list-style: none;
-      margin-left: 18px;
-      padding-left: 0;
-      border: 1px solid #aaaaaa; }
-      .services-page aside .services-list ul li {
-        border-bottom: 1px solid #aaaaaa;
-        padding: 10px 0; }
-        .services-page aside .services-list ul li a {
-          color: #183650;
-          font-size: 16px;
-          padding-left: 14px;
-          transition: .3s; }
-        .services-page aside .services-list ul li a:hover {
-          color: #c10f03;
-          font-weight: 600;
-          padding-left: 24px;
-          padding-right: 24px; }
-      .services-page aside .services-list ul li:last-child {
-        border-bottom: none; }
-      .services-page aside .services-list ul .active-services {
-        border-left: 3px solid #c10f03;
-        background-color: #e1e1e1; }
+    .services-page aside .services-list {
+      margin: 0 auto;
+      padding: 0 20px; }
+      .services-page aside .services-list h4 {
+        font-weight: 600; }
+      .services-page aside .services-list ul {
+        list-style: none;
+        padding-left: 0;
+        border: 1px solid #aaaaaa; }
+        .services-page aside .services-list ul li {
+          border-bottom: 1px solid #aaaaaa;
+          padding: 10px 0; }
+          .services-page aside .services-list ul li a {
+            color: #183650;
+            font-size: 16px;
+            padding-left: 14px;
+            transition: .3s; }
+          .services-page aside .services-list ul li a:hover {
+            color: #c10f03;
+            font-weight: 600;
+            padding-left: 24px;
+            padding-right: 24px; }
+        .services-page aside .services-list ul li:last-child {
+          border-bottom: none; }
+        .services-page aside .services-list ul .active-services {
+          border-left: 3px solid #c10f03;
+          background-color: #e1e1e1; }
     .services-page aside h4 {
       margin-top: 12px; }
     .services-page aside .recent-post-list h4 {
@@ -2189,7 +2200,7 @@ PAGES SERVICES
 * Footer
 * --------------------------------------------------------------------------------------*/
 .footer-top {
-  background-color: #0c3d4a;
+  background-color: #001b22;
   padding: 42px 0;
   color: #fff; }
   .footer-top .footer-logo img {
