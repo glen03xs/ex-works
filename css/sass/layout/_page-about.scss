@@ -1,0 +1,109 @@
+/* ---------------------------------------------------------------------------------------
+PAGE - ABOUT
+* --------------------------------------------------------------------------------------*/
+
+/*-------------- PAGE TITLE --------------*/
+ 
+/*-------------- ABOUT --------------*/
+
+.page-about {
+    padding: $baseline*3 0;
+}
+
+.about-company {
+
+    h3 {
+        margin: 0 0 16px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .write-up-1 {
+        padding: 0 30px;
+        width: 100%;
+    }
+
+    a {
+        color: $color-banner;
+        display: block;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+}
+
+.mission-vision-core {
+    background: url(../img/about-bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: $baseline*3 0;
+
+    .mission-vision {
+        margin: 8px 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .mission, .vision {
+        margin: 0 8px;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .core {
+        padding: 28px;
+    }
+}
+
+.core {
+    background: rgba(10, 10, 10, .12);
+
+    h3 {
+        font-size: 24px;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        margin-bottom: 12px;
+        padding-left: 0;
+
+    }
+
+
+    h5 {
+        margin: 18px 10px 0 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.the-team {
+    padding: $baseline*3 0;
+
+    h4 {
+        margin: 0;
+    }
+
+    p {
+        margin-top: 8px;
+    }
+    
+    a {
+        color: $color-banner;
+        display: block;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .write-up-2 {
+        padding: 34px 16px;
+    }
+}

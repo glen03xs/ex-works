@@ -2196,6 +2196,71 @@ PAGES SERVICES
     font-size: 14px;
     margin-top: 16px;
     padding: 0px 8px 4px; } }
+/* ---------------------------------------------------------------------------------------
+PAGE - ABOUT
+* --------------------------------------------------------------------------------------*/
+/*-------------- PAGE TITLE --------------*/
+/*-------------- ABOUT --------------*/
+.page-about {
+  padding: 63px 0; }
+
+.about-company h3 {
+  margin: 0 0 16px 0; }
+.about-company img {
+  width: 100%; }
+.about-company .write-up-1 {
+  padding: 0 30px;
+  width: 100%; }
+.about-company a {
+  color: #c10f03;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px; }
+
+.mission-vision-core {
+  background: url(../img/about-bg-1.jpg) no-repeat center;
+  background-size: cover;
+  padding: 63px 0; }
+  .mission-vision-core .mission-vision {
+    margin: 8px 0; }
+    .mission-vision-core .mission-vision img {
+      width: 100%; }
+  .mission-vision-core .mission, .mission-vision-core .vision {
+    margin: 0 8px; }
+    .mission-vision-core .mission p, .mission-vision-core .vision p {
+      margin-bottom: 0; }
+  .mission-vision-core .core {
+    padding: 28px; }
+
+.core {
+  background: rgba(10, 10, 10, 0.12); }
+  .core h3 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    text-align: center; }
+  .core ul {
+    list-style: none;
+    margin-bottom: 12px;
+    padding-left: 0; }
+  .core h5 {
+    margin: 18px 10px 0 0; }
+  .core p {
+    margin: 0; }
+
+.the-team {
+  padding: 63px 0; }
+  .the-team h4 {
+    margin: 0; }
+  .the-team p {
+    margin-top: 8px; }
+  .the-team a {
+    color: #c10f03;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px; }
+  .the-team .write-up-2 {
+    padding: 34px 16px; }
+
  /* ---------------------------------------------------------------------------------------
 * Footer
 * --------------------------------------------------------------------------------------*/
