@@ -98,3 +98,18 @@
         padding: 6px 10px;
     }
 }
+
+.contact-form input[type="submit"] {
+    background-color: $color-link;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 22px;
+    height: 45px;
+    margin-top: 18px;
+
+     &:hover {
+         background-color: lighten($color-link, 20%);
+         @include transition (all, .3s, ease-out);
+         color: $color-light-text;
+     }
+}

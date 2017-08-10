@@ -135,6 +135,9 @@ $(document).ready(function () {
     });
 });
 
+
+
+
 // when Clicked sticky menu move to top active menu stuck
 // Clicked sticky menu move to top moved to fixed menu when scroll top vice versa
 

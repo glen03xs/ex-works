@@ -156,6 +156,17 @@
                 .active-services {
                     border-left: 3px solid $color-banner;
                     background-color: $color-2;
+
+                    a {
+                        cursor: default;
+                    }
+
+                    a:hover {
+                            color: $color-link;
+                            font-weight: 300;
+                            padding-left: 14px;
+                            padding-right: 14px;
+                        }
                 }
             }
     }

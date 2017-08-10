@@ -1,0 +1,61 @@
+/* ---------------------------------------------------------------------------------------
+PAGE - CONTACT US
+* --------------------------------------------------------------------------------------*/
+.contact-page {
+    padding: $baseline*3 0; 
+
+    .box-info {
+        border: 1px solid $color-banner;
+        height: 220px;
+        width: auto;
+        margin: 24px;
+        padding: 42px 32px 32px;
+        text-align: center;
+        vertical-align: bottom;
+
+        -webkit-box-shadow: 10px 10px 9px -6px rgba(176,176,176,1);
+        -moz-box-shadow: 10px 10px 9px -6px rgba(176,176,176,1);
+        box-shadow: 10px 10px 9px -6px rgba(176,176,176,1);
+
+        transition: .3s;
+        i {
+            color: $color-link;
+            font-size: 48px;
+        }
+    }
+
+    .box-info:hover {
+        background: $color-banner;
+        color: #fff;
+
+        i, h5 {
+            color: #fff;
+        }
+    }
+}
+
+.page-form {
+    background: #f8f9fa;
+    padding: $baseline*3 0;
+}
+
+.contact-form {
+    margin: 8px 8px $baseline*3 8px;
+
+    h4 {
+        margin: 0 0 20px;
+    }
+
+    input, textarea {
+        background-color: rgba(114, 114, 114, .2);
+    }
+
+    input {
+        margin-bottom: 12px;
+    }
+
+    textarea {
+        height: 130px;
+    }
+}
+

@@ -126,7 +126,65 @@
             </div> <!--end pages-header-->
         </section>
         
+        <!--CONTACT INFO-->
+        <section>
+            <div class="contact-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box-info">
+                                <i class="fa fa-map-signs"></i>
+                                <h5>Location</h5>
+                                <p>R 319 First United Building, Escolta St, Binondo Manila, 1006 PH</p>
+                            </div> <!--end box-info-->
+                        </div><!--end col-lg-4-->
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box-info">
+                                <i class="fa fa-phone"></i>
+                                <h5>Call Us</h5>
+                                <p>(632) 310 70 99 | (632) 514 54 64</p>
+                            </div> <!--end box-info-->
+                        </div><!--end col-lg-4-->
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box-info">
+                                <i class="fa fa-envelope"></i>
+                                <h5>Email Us</h5>
+                                <p>info@ex-worksph.com</p>
+                            </div> <!--end box-info-->
+                        </div><!--end col-lg-4-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div> <!--end contact-page-->
+        </section>
 
+        <!-- CONTACT FORM -->
+        <section>
+            <div class="page-form">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="contact-form">
+                                <h4>Get in Touch</h4>
+                                <form action="">
+                                    <input type="text" id="contact-name" name="contact-name" placeholder="Full Name">
+                                    <input type="email" id="contact-email" name="quote-email" placeholder="Email Address">
+                                    <input type="text" name="contact-subject" placeholder="Subject">
+                                    <textarea name="contact-message" id="quote-shipment-details" placeholder="Message"></textarea>
+                                    <input type="submit" class="btn-contact" value="Send Message" />
+                                </form>
+                            </div> <!--end contact-form-->
+                        </div><!--end col-lg-5-->
+                        <div class="col-lg-7">
+                            <div class="content-map">
+                                <div id="map">
+
+                                </div>
+                            </div> <!--end map-->
+                        </div><!--end col-lg-7-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div> <!--end -->
+        </section>
 
         <!--FOOTER-->
         <footer>
@@ -247,6 +305,22 @@
         </div> <!--end sticky-menu-container-->
 
 <!--Scripts-->
+        <script>
+            function initMap() {
+                var uluru = {lat: 14.598996, lng: 120.981875};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 18,
+                center: uluru,
+                scrollwheel:  false
+                });
+                var image = 'img/ex-works-map-marker.png';
+                var beachMarker = new google.maps.Marker({
+                position: {lat: 14.599004, lng: 120.979352},
+                map: map,
+                icon: image
+                 });
+            }
+        </script>
         <script src="js/jquery-3.2.0.js"></script>
         <script src="js/jquery.meanmenu.js"></script>
         <!--<script src="js/jquery.flexslider.js"></script>-->
