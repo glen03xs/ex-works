@@ -2047,6 +2047,134 @@ blockquote {
   .banner-cta {
     max-height: 200px; } }
 /* ---------------------------------------------------------------------------------------
+PAGE - BLOG
+* --------------------------------------------------------------------------------------*/
+.blog-page {
+  padding: 63px 0; }
+  .blog-page ul {
+    list-style: none; }
+  .blog-page .post-list {
+    margin: 0 8px; }
+    .blog-page .post-list .post-item img {
+      width: 100%; }
+    .blog-page .post-list .post-content {
+      margin-top: 36px; }
+    .blog-page .post-list .post-article {
+      clear: both; }
+      .blog-page .post-list .post-article .post-read-more {
+        font-weight: 600;
+        text-transform: uppercase; }
+    .blog-page .post-list hr {
+      background: #aaaaaa;
+      margin: 46px auto 54px;
+      width: 680px; }
+  .blog-page .post-head {
+    display: inline-block; }
+    .blog-page .post-head .post-title {
+      float: left;
+      max-width: 620px;
+      padding: 0 16px 0; }
+      .blog-page .post-head .post-title h2 {
+        line-height: 36px;
+        margin: 4px 0 0 10px; }
+      .blog-page .post-head .post-title p {
+        margin: 6px 0 0 14px; }
+    .blog-page .post-head .post-date {
+      background: #183650;
+      color: #fff;
+      float: left;
+      height: 90px;
+      margin-top: 8px;
+      padding: 8px;
+      text-align: center;
+      width: 96px; }
+      .blog-page .post-head .post-date p {
+        font-size: 16px;
+        margin: 4px 0 0 0; }
+      .blog-page .post-head .post-date .day {
+        display: inline-block;
+        font-size: 34px;
+        padding-top: 12px; }
+      .blog-page .post-head .post-date hr {
+        background: #fff;
+        margin: 0 auto;
+        height: 2px;
+        width: 68px; }
+  .blog-page aside {
+    margin: 0 8px; }
+    .blog-page aside .top-post-list h4 {
+      font-weight: 600;
+      margin-top: 0; }
+    .blog-page aside .top-post-list ul {
+      padding-left: 16px; }
+      .blog-page aside .top-post-list ul li {
+        border-bottom: 1px solid #aaaaaa; }
+      .blog-page aside .top-post-list ul a {
+        font-size: 18px;
+        line-height: 22px; }
+      .blog-page aside .top-post-list ul i {
+        color: #c10f03;
+        display: inline;
+        float: left;
+        font-size: 18px;
+        line-height: 24px;
+        margin-right: 10px; }
+      .blog-page aside .top-post-list ul p {
+        margin: 8px inherit;
+        padding-left: 18px; }
+    .blog-page aside .top-post-list li:last-child {
+      border: none; }
+    .blog-page aside .categories h5 {
+      font-size: 1.75rem; }
+    .blog-page aside .categories ul {
+      padding-left: 12px; }
+      .blog-page aside .categories ul li {
+        margin-bottom: 8px; }
+      .blog-page aside .categories ul a {
+        font-size: 1.5rem;
+        text-transform: uppercase; }
+    .blog-page aside .email-newsletter {
+      border: 1px solid #2D3439;
+      margin-top: 52.5px;
+      padding: 20px; }
+      .blog-page aside .email-newsletter h5 {
+        margin: 4px 0; }
+      .blog-page aside .email-newsletter p {
+        margin-top: 8px; }
+      .blog-page aside .email-newsletter form input:first-child {
+        margin-bottom: 12px; }
+      .blog-page aside .email-newsletter form input[type=email] {
+        background: #f7f4f3;
+        padding: 8px; }
+      .blog-page aside .email-newsletter form input::placeholder {
+        color: #aaaaaa; }
+  .blog-page .pagination {
+    margin: 70px auto 50px;
+    text-align: center; }
+    .blog-page .pagination ul li {
+      border: solid 1px #000;
+      display: inline;
+      padding: 10px 0; }
+      .blog-page .pagination ul li a {
+        font-weight: 600;
+        padding: 10px 16px; }
+    .blog-page .pagination ul li:hover {
+      background: #c10f03;
+      transition: .4s; }
+      .blog-page .pagination ul li:hover a {
+        color: #fff;
+        transition: none; }
+    .blog-page .pagination ul li:last-child {
+      margin-left: 6px; }
+
+/*-------------- BLOG SINGLE --------------*/
+.single-post .post-img img {
+  width: 100%; }
+.single-post .post-head {
+  display: inline-block;
+  margin-bottom: 21px; }
+
+/* ---------------------------------------------------------------------------------------
 PAGES SERVICES
 * --------------------------------------------------------------------------------------*/
 /*-------------- PAGE TITLE --------------*/
@@ -2113,7 +2241,7 @@ PAGES SERVICES
 
 /*-------------- SERVICES PAGE--------------*/
 .services-page {
-  padding: 52.5px 0; }
+  padding: 63px 0; }
   .services-page aside {
     margin: 0 8px; }
     .services-page aside .services-list {
@@ -2206,7 +2334,6 @@ PAGES SERVICES
 /* ---------------------------------------------------------------------------------------
 PAGE - ABOUT
 * --------------------------------------------------------------------------------------*/
-/*-------------- PAGE TITLE --------------*/
 /*-------------- ABOUT --------------*/
 .page-about {
   padding: 63px 0; }
